@@ -23,7 +23,7 @@ Return: choice
 
 Name: computer_choice\
 Parameters: None\
-Return: choice
+Return: choice  
    1. Create variable choice, and set it to choose a random integer between 1-3.
    11. Output how many sticks the computer chooses to take
 

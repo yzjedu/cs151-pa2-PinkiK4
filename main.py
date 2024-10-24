@@ -45,6 +45,7 @@ def stick_game(num_sticks=0):
     while play_again != 'y' and play_again != 'n':
         print('Invalid option. Please choose y or n.')
         play_again = input("Would you like to play? (y/n) ")
+        play_again = play_again.lower().strip()
     global player1_losses, player2_losses, computer_losses
 # Asks user to input the number of sticks on the table until user choses to not continue playing
     while play_again != 'n':
